@@ -1,0 +1,44 @@
+@import url('https://unpkg.com/boxicons@latest/css/boxicons.min.css');
+
+.totalProjContainer {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #dcdcdd;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 450px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header .i {
+    padding-top: 2px;
+    padding-right: 3px;
+}
+
+.header .i, .t {
+    margin-bottom: 10px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #DBEAFE;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdd;
+    height: 23px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.mid h4 {
+    color: #2966EC;
+}

@@ -1,0 +1,82 @@
+.upcoming {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #dcdcdd;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.upcoming-header {
+    margin: 0 0 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.upcoming-header i {
+    margin-right: 10px;
+}
+
+.sub-contain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.no-due {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.no-due .no-upcoming-text {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.no-due .bxh1 {
+    margin: 0;
+}
+
+.no-due .bx-badge-check {
+    color: #1ea851;
+    font-size: 100px;
+}
+
+.due {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dcdcdd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.due-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.due-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.due-dueDate {
+    color: #666;
+    font-size: 14px;
+}

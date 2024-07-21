@@ -1,0 +1,66 @@
+.container {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px 15px 0px;
+    font-size: 16px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+th {
+    color: #6E6E77;
+    font-weight: 500;
+}
+
+thead tr {
+    background-color: #ffffff;
+    color: #71717A;
+    text-align: left;
+    font-weight: 300; /* Lighter than normal */
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #E4E4E7;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.edit-button {
+    height: 26px;
+    width: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-color: #E4E4E7;
+    background-color: white;
+}
+
+.trash-button {
+    height: 26px;
+    width: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-style: none;
+    border-color: #E4E4E7;
+    background-color: white;
+}

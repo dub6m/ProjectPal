@@ -1,0 +1,150 @@
+* {
+    transition: transform 0.3s ease-in-out;
+}
+
+.pro-content {
+    display: flex;
+    height: 90vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-height: 90vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 0px 20px;
+}
+
+.pro-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+.pro-description, .bottom-left-pro-block {
+    overflow: hidden; /* Prevent content overflow. Clips content that exceed allocated space */
+}
+
+.pro-description {
+    overflow-y: auto; /* Enable vertical scrolling */
+    flex: 0.3;
+    padding: 0px 20px;
+    border-radius: 20px;
+    margin-bottom: 7px;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+}
+
+.pro-description h3 {
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #EBEBEB;
+    z-index: 1;
+}
+
+.bottom-left-pro-block {
+    flex: 0.7;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Ensure it takes up the full height */
+}
+
+.resources, .suggestion {
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 0px 25px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #E4E4E7;
+    height: 100%;
+    max-height: 100%;
+    max-width: 50%;
+}
+
+.resources h3, .suggestion h3 {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 0;
+    z-index: 1;
+}
+
+.suggestion {
+    margin-left: 2px;
+}
+
+.suggestion i {
+    color: #EAB308;
+}
+
+.resources {
+    margin-right: 2px;
+}
+
+.resources i {
+    color: #22C55E;
+}
+
+.pro-right {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #E4E4E7;
+    padding: 0px 10px;
+    margin-left: 10px;
+    margin-top: 85.5px;
+    width: 40%;
+    height: calc(100% - 85px); /* Ensure it takes up the full height minus the margin-top */
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.pro-right h3 {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 0px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 0;
+    z-index: 1;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.pro-right ul {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.pro-right ul li {
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+}
+
+.pro-right ul li:hover {
+    transform: scale(1.03);
+}
+
+.pro-right ul li input {
+    transform: scale(1.4);
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}

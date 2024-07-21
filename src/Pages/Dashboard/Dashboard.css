@@ -1,0 +1,32 @@
+.dash-overall {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dashContainer {
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.tophalf {
+    height: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomhalf {
+    height: 70%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,79 @@
+.hover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.deldel {
+    background-color: white;
+    width: 400px; /* Set a fixed width for better design */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align the text */
+}
+
+.deldel .bx-trash {
+    font-size: 100px; /* Adjust icon size */
+    color: #ad403c; /* Set a red color for the icon */
+    margin-bottom: 20px; /* Add margin below the icon */
+}
+
+.deldel p {
+    font-size: 18px; /* Increase font size for better readability */
+    color: #333; /* Set a darker color for the text */
+    margin-bottom: 20px; /* Add margin below the text */
+}
+
+.deldelbtns {
+    display: flex;
+    flex-direction: row; /* Change to row to place buttons side by side */
+    justify-content: space-between; /* Add space between buttons */
+    width: 100%; /* Ensure buttons take full width */
+}
+
+.deldelbtns button {
+    width: 45%; /* Adjust width for side by side buttons */
+    height: 40px;
+    margin: 0 5px; /* Adjust margin for side by side buttons */
+    border-radius: 5px; /* Reduce border-radius for a cleaner look */
+    border: none; /* Remove default border */
+    background-color: #f8f9fa; /* Light grey background for buttons */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.deldelbtns button:hover {
+    background-color: #e2e6ea; /* Darken background on hover */
+}
+
+.deldelbtns button:first-of-type {
+    background-color: black; /* Darker grey for the cancel button */
+    color: white; /* White text color for contrast */
+}
+
+.deldelbtns button:first-of-type:hover {
+    background-color: rgb(38, 37, 37); /* Darken background on hover */
+}
+
+.deldelbtns button:last-of-type {
+    background-color: #ad403c; /* Red background for the delete button */
+    color: white; /* White text color for contrast */
+}
+
+.deldelbtns button:last-of-type:hover {
+    background-color: #c9302c; /* Darken background on hover */
+}

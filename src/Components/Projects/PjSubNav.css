@@ -1,0 +1,71 @@
+.pj-subnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.pj-subnav h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.pj-search {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 5px 10px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    transition: box-shadow 0.3s ease;
+}
+
+.pj-search input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.pj-search button {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pj-search button:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.pj-search button i {
+    font-size: 20px;
+}
+
+.new-project-button {
+    height: 37px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.new-project-button:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.new-project-button i {
+    margin-right: 5px;
+}

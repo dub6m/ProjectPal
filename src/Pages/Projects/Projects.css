@@ -1,0 +1,43 @@
+.projects-container {
+    padding: 35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.project-table {
+    height: 500px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.noPro-display {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noPro-display .bx-file-blank {
+    font-size: 100px;
+}
+
+.noPro-display h2 {
+    margin-bottom: 3px;
+}
+
+.noPro-display p {
+    margin-top: 0px;
+    color: #6B7280;
+}
+
+.noPro-display button {
+    height: 37px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding-right: 10px;
+    transition: background-color 0.3s ease;
+}

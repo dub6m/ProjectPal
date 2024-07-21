@@ -1,0 +1,103 @@
+.loginroot {
+    width: 100%;
+    height: 100vh;
+    background-color: #F4F4F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logincontainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 20px;
+    height: 500px;
+    width: 420px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 5px 0px;
+}
+
+.pal-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.welcome h2 {
+    margin-bottom: 0px;
+}
+
+.welcome p {
+    font-size: 15px;
+    font-weight: 7px;
+    color: #71717A;
+}
+
+.signin-form {
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.signin-form .email, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form .email label, .password label {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.signin-form .email input, .password input {
+    height: 37px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: groove;
+    border-color: #E4E4E7;
+    border-radius: 8px;
+}
+
+.signin-form .email input:focus, .password input:focus {
+    outline: none;
+}
+
+.signinbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signinbtn button {
+    width: 100%;
+    height: 37px;
+    border-style: groove;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+.otheroptions {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    border-color: #dcdcdd;
+    border-width: 1px;
+    border-top-style: solid;
+}
